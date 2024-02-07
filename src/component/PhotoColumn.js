@@ -5,6 +5,7 @@ const baseURL = "https://drive.google.com/thumbnail?id="
 function PhotoColumn({ images }) {
     // console.log("photo column comp rendered")
     // console.log(images)
+
     return (
         <div className="column">
             {images.map((photo) => (

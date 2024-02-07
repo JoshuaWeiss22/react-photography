@@ -3,6 +3,7 @@ import PhotoColumn from './PhotoColumn';
 
 function Photos({ photos }) {
     // console.log(photos)
+    // thank you doug
     // console.log("checking filter", photos.filter((photo) => +photo.col === 1))
 
     // if (photos.length > 0) {
