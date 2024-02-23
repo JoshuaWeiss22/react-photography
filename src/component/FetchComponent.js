@@ -7,6 +7,9 @@ const headers = {
 //Here is my first change to this branch
 // I am having trouble understanding how to sync this with github.
 // I have tried multiple things like committing it, the pushing it? Why isn't that working?
+
+//Here is my second change to this branch
+//I am going to create another pull request that will sync with the master
 function FetchComponent(setPhotoData) {
     fetch(baseURL, { headers })
         .then((res) => res.json())
