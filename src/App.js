@@ -9,7 +9,7 @@ function App() {
     useEffect(() => {
         FetchComponent(setPhotoData)
     }, []);
-
+    //First edit with feature 2
     console.log("fetched photo data", photoData);
 
     return (
