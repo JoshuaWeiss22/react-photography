@@ -6,6 +6,7 @@ function PhotoColumn({ images }) {
     // console.log("photo column comp rendered")
     // console.log(images)
 
+    // third time making change
     return (
         <div className="column">
             {images.map((photo) => (
