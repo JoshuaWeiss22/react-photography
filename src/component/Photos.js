@@ -10,6 +10,7 @@ function Photos({ photos }) {
     //     console.log("photos component rendering")
     // }
 
+    //4 time making comment
     return (
         <div className="photos">
             {[1, 2, 3].map((columnID) => (
