@@ -4,7 +4,9 @@ const headers = {
     Authorization:
         'Bearer patTMiIY9vZDQCXLd.ee2859aa3dff448b3e0d45d9be1165606e0b09a2c30350adf0370b89f8881d63',
 };
-
+//Here is my first change to this branch
+// I am having trouble understanding how to sync this with github.
+// I have tried multiple things like committing it, the pushing it? Why isn't that working?
 function FetchComponent(setPhotoData) {
     fetch(baseURL, { headers })
         .then((res) => res.json())
