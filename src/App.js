@@ -9,11 +9,9 @@ function App() {
     console.log(selectedPhoto)
 
     const [photoData, setPhotoData] = useState([]);
-    //5th time making change
     useEffect(() => {
         FetchComponent(setPhotoData)
     }, []);
-    // First edit with feature 1
 
     return (
         <div className="App">
