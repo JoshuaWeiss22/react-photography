@@ -12,7 +12,6 @@ function App() {
     useEffect(() => {
         FetchComponent(setPhotoData)
     }, []);
-    // First edit with feature 1
     console.log("fetched photo data", photoData);
 
     return (
